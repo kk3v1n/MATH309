@@ -1,1 +1,3 @@
-# MATH309_Project
+# MATH309
+
+#Group Project
