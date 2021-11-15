@@ -1,3 +1,15 @@
+'''
+to do still:
+
+add simulation (do it more than once), apparently its never supposed to end???
+draw plots
+fix WHO gets infected among the group of infected people
+
+idk what else
+'''
+
+
+
 import random
 
 class problem_two:
