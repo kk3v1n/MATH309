@@ -20,5 +20,5 @@ def getFile(file_input):
     return (applied_forces, angle_of_applications)
 
 
-
-print(getFile('The varying applied force and angle of application - Sheet.csv'))
+getFile("forceAndAngle.csv")
+#print(getFile("forceAndAngle.csv"))
