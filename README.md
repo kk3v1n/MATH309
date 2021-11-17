@@ -1,7 +1,8 @@
 # MATH 309: Group Project
 
 Group 3: Kevin Karmacharya, Justin Wong, Briana Sze, Elyssa M. Tapawan 
-Problems 1.2, 2.4, 3
+
+Problems: 1.2, 2.4, 3
 
 ## Section 1, Question 2
 The following figure shows a mass M attached to a slender steel rod of mass m:
