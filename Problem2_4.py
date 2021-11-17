@@ -163,6 +163,7 @@ class problem_two:
         plt.plot(e, c, 'g')
         
         plt.show()
+        #fix
         
 problem_two.problem_two_four(1000,100) #1000 people and 100 nsteps
 
