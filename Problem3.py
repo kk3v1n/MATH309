@@ -24,14 +24,14 @@ def calculation():
     #b = input("Enter a value for top bound(a): ")
     b = 50
     #n = input("Enter a even number: ")
-    n = 3 #you can change this to whatever
+    n = 23 #you can change this to whatever
     h = (b - a) / n
     x = np.linspace(a, b, n)
 
     print("this is x: ",x)
 
-    forces_array_count = len(forces_array)
-    angle_array_count = len(angle_array)
+    #forces_array_count = len(forces_array)
+    #angle_array_count = len(angle_array)
     
     #f = np.cos(x)
     f = forces_array * np.cos(angle_array)
