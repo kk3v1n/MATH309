@@ -26,8 +26,8 @@ class problem_3():
     def simpsons_rule(self, n): 
         a = 20.0
         b = 50.0 
-        h = b - a / n
-        x = np.linspace(a, b , n + 1)
+        h = (b - a) / (n - 1)
+        x = np.linspace(a, b, n)
 
         #attempt 1
         #f = lambda x : self.applied_forces * np.cos(self.angle_of_applications)
@@ -36,14 +36,14 @@ class problem_3():
         
         #attempt 2
         f = self.applied_forces * np.cos(self.angle_of_applications) * x
-        simpson = (h/3) * (f[0] + 2*sum(f[n-2:2]) + 4*sum(f[1:n-1:2]) + f[n-1])
+        simpson = (h/3) * (f[0] + 2*sum(f[:n-2:2]) \
+            + 4*sum(f[1:n-1:2]) + f[n-1])
         return simpson
 
     
 if __name__ == "__main__":
     problem = problem_3()
     #problem.simpsons_rule(10)
-    print(len(problem.applied_forces))
-    print(len(problem.angle_of_applications))
-    print(problem.simpsons_rule(22))
-
+    #print(len(problem.applied_forces))
+    #print(len(problem.angle_of_applications))
+    print(problem.simpsons_rule(23))
