@@ -47,3 +47,5 @@ if __name__ == "__main__":
     #print(len(problem.applied_forces))
     #print(len(problem.angle_of_applications))
     print(problem.simpsons_rule(23))
+    
+    #14814.744658972539
