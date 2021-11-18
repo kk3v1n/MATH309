@@ -38,7 +38,7 @@ def calculation():
     #f = np.cos(x)
     f = forces_array * np.cos(angle_array)
 
-    print("\nthis is f:\n", f)
+    #print("\nthis is f:\n", f)
 
     I_simp = (h/3) * (f[0] + 2*sum(f[:n-2:2]) \
         + 4*sum(f[1:n-1:2]) + f[n-1])
