@@ -50,3 +50,5 @@ if __name__ == "__main__":
     #print(len(problem.applied_forces))
     #print(len(problem.angle_of_applications))
     print(problem.simpsons_rule(lambda x: problem.applied_forces * np.cos(problem.angle_of_applications), 20, 50, 22 ))
+    
+    #N = 23 559.20575724
