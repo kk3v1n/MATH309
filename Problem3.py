@@ -44,3 +44,5 @@ def calculation():
     print(I_simp)
 
 print(calculation())
+
+#N = 23 351.3709607391776
