@@ -15,8 +15,8 @@ def getFile(file_input):
 
 def calculation():
     forces_array, angle_array = getFile("forceAndAngle.csv")
-    print("this is forces_array:\n",forces_array)
-    print("\nthis is angle_array:\n",angle_array)
+    #print("this is forces_array:\n",forces_array)
+    #print("\nthis is angle_array:\n",angle_array)
 
     a = int(input("Enter a bottom bound(a): "))
     #a = 20
@@ -30,7 +30,7 @@ def calculation():
     h = (b - a) / n
     x = np.linspace(a, b, n)
 
-    print("\nthis is x:\n",x)
+    #print("\nthis is x:\n",x)
 
     #forces_array_count = len(forces_array)
     #angle_array_count = len(angle_array)
@@ -43,7 +43,8 @@ def calculation():
     I_simp = (h/3) * (f[0] + 2*sum(f[:n-2:2]) \
         + 4*sum(f[1:n-1:2]) + f[n-1])
 
-    print(I_simp)
+    return(I_simp)
+    #print(I_simp)
 
 print(calculation())
 
