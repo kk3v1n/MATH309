@@ -1,6 +1,4 @@
 
-<<<<<<< Updated upstream
-=======
 import numpy as np
 
 class problem_3():
@@ -41,4 +39,4 @@ if __name__ == "__main__":
     #problem.simpsons_rule(10)
     print(problem.applied_forces)
     print(problem.simpsons_rule(10))
->>>>>>> Stashed changes
+
