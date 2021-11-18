@@ -18,12 +18,15 @@ def calculation():
     print("this is forces_array:\n",forces_array)
     print("\nthis is angle_array:\n",angle_array)
 
-    #a = input("Enter a bottom bound(a): ")
-    a = 20
-    #b = input("Enter a value for top bound(a): ")
-    b = 50
-    #n = input("Enter a even number: ")
-    n = 23 #you can change this to whatever
+    a = int(input("Enter a bottom bound(a): "))
+    #a = 20
+    
+    b = int(input("Enter a value for top bound(a): "))
+    #b = 50
+    
+    n = int(input("Enter a even number: "))
+    #n = 2 #you can change this to whatever
+    
     h = (b - a) / n
     x = np.linspace(a, b, n)
 
